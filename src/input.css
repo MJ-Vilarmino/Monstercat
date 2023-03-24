@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.banner ul li {
+    @apply mb-4 text-xl
+}
+
+.banner__content a {
+    @apply hover:bg-lightGray hover:text-black
+}
+
+
+@layer base {
+    .font-outline-2 {
+      -webkit-text-stroke: 1px lightgray;
+    }
+    .font-outline-4 {
+      -webkit-text-stroke: 2px lightgray;
+    }
+}
+
+.stream__icons {
+    @apply border border-lightGray py-5 px-7
+}
+
+.about ul li  {
+    @apply mb-1 
+}
+
+.about i {
+    @apply hover:border hover:border-lightGray hover:bg-lightGray py-1 px-4 hover:text-black
+}
+
+
+/*About Page */
+.header__banner a {
+    @apply hover:bg-lightGray hover:text-black
+}
